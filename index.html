@@ -1,24 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nike-React</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike-React</title>
 
-    <!-- font-family: 'Bebas Neue', cursive; -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <!-- font-family: 'Roboto', sans-serif; -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <!-- font-family: 'Bebas Neue', cursive; -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!-- font-family: 'Roboto', sans-serif; -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <!-- font-family: 'Montserrat', sans-serif; -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
 
+  <!-- font-family: 'Roboto', sans-serif; -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
-    <!-- bootstrap-css-link -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- bootstrap-css-link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- custom-css-link -->
+  <link rel="stylesheet" href="./css/style.css">
 
 </head>
+
 <body>
+
+  <!-- header-section -->
+  <header class="header-section">
+    <!-- navigation-section -->
+    <section class="container ">
+      <nav class="navbar navbar-expand-lg navbar-light  nav-height mt-4">
+        <span class="custom-logo d-flex justify-content-start">
+          <a class="navbar-brand" href="#">
+            <img class="logo-sizing" src="./Logo, Icon/nike-logo.png" alt="">
+          </a>
+          <h2><span class="orange-highlight">Nike</span> React</h2>
+        </span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link pl-5" href="#banner">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item pl-5">
+              <a class="nav-link" href="#casual">Product</a>
+            </li>
+            <li class="nav-item pl-5">
+              <a class="nav-link" href="#formal">About-Us</a>
+            </li>
+            <li class="nav-item pl-5">
+              <a class="nav-link" href="#service">Contact-Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+  
+  <!-- bannar-section -->
+  <section class="container my-banner" id="banner">
+    <div class="banner mt-4 row flex-column-reverse flex-lg-row mt-md-5 mt-sm-5 mb-5">
+      <div class="image col-lg-6">
+        <img class="w-100" src="./Photos/Group 33092.png" alt="">
+      </div>
+      <div class="htext col-lg-6 d-flex justify-content-center align-items-center">
+        <div class="cent">
+          <h1 class="orange-highlight">Nike React</h1>
+          <h1>Infinity Run 2</h1>
+          <p>The ultimate design shoes are here. Not too far from you. Just a few click and get it.</p>
+          <button class="btn btn-primary bg-gradient py-3 my-button"><img class="cart-btn-icon"
+              src="./Logo, Icon/shopping-cart 1.png" alt=""><span class="button-text"> SHOP NOW</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
+  <!-- casual-shoe-section -->
+  <section class="bg-light" id="casual">
+    <section class="container ">
+      <div class="casual-shoe-section">
+        <h2 class="section-title">Casual Shoes</h2>
+        <div class="casual">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+              <div class="card h-auto my-card shadow-sm">
+                <div class="inside">
+                  <div class="card-image"><img src="./Photos/image 5.png" class="card-img-top bg-light card-image-2"
+                      alt="..."></div>
+                  <div class="">
+                    <h5 class="card-title my-card-title">Sneakers Basketball shoe</h5>
+                    <p class="card-text">This is a wider card with supporting text be Easy price no wories to get it..</p>
+                  </div>
+                  <div class="foot d-flex justify-content-between align-items-center">
+                    <h2 class="card-price orange-highlight">$234</h2>
+                    <button class="btn btn-primary bg-gradient py-3  my-button"><img class="cart-btn-icon"
+                        src="./Logo, Icon/shopping-cart 1.png" alt=""><span class="button-text"> BUY NOW</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-auto my-card shadow-sm">
+                <div class="inside">
+                  <div class="card-image"><img src="./Photos/Daco_1703273 1.png" class="card-img-top bg-light card-image-2"
+                      alt="..."></div>
+                  <div class="">
+                    <h5 class="card-title my-card-title">Sneakers Basketball shoe</h5>
+                    <p class="card-text">This is a wider card with supporting text be Easy price no wories to get it..</p>
+                  </div>
+                  <div class="foot d-flex justify-content-between align-items-center">
+                    <h2 class="card-price orange-highlight">$234</h2>
+                    <button class="btn btn-primary bg-gradient py-3  my-button"><img class="cart-btn-icon"
+                        src="./Logo, Icon/shopping-cart 1.png" alt=""><span class="button-text"> BUY NOW</span></button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-auto my-card shadow-sm">
+                <div class="inside">
+                  <div class="card-image"><img src="./Photos/pngegg 1.png" class="card-img-top bg-light card-image-2"
+                      alt="..."></div>
+                  <div class="">
+                    <h5 class="card-title my-card-title">Sneakers Basketball shoe</h5>
+                    <p class="card-text">This is a wider card with supporting text be Easy price no wories to get it..</p>
+                  </div>
+                  <div class="foot d-flex justify-content-between align-items-center">
+                    <h2 class="card-price orange-highlight">$234</h2>
+                    <button class="btn btn-primary bg-gradient py-3  my-button"><img class="cart-btn-icon"
+                        src="./Logo, Icon/shopping-cart 1.png" alt=""><span class="button-text"> BUY NOW</span></button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- formal-shoe-section -->
+
+  <section class="bg-light" id="formal">
+    <section class="container mt-5">
+      <div class="casual-shoe-section">
+        <h2 class="section-title">Formal Shoes</h2>
+        <div class="casual">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+              <div class="card h-auto my-card shadow-sm">
+                <div class="inside">
+                  <div class="card-image"><img src="./Photos/Mask Group.png" class="card-img-top  card-image-2"
+                      alt="..."></div>
+                  <div class="">
+                    <h5 class="card-title my-card-title">Sneakers Basketball shoe</h5>
+                    <p class="card-text">This is a wider card with supporting text be Easy price no wories to get it..</p>
+                  </div>
+                  <div class="foot d-flex justify-content-between align-items-center">
+                    <h2 class="card-price orange-highlight">$234</h2>
+                    <button class="btn btn-primary bg-gradient py-3  my-button"><img class="cart-btn-icon"
+                        src="./Logo, Icon/shopping-cart 1.png" alt=""><span class="button-text"> BUY NOW</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-auto my-card shadow-sm">
+                <div class="inside">
+                  <div class="card-image"><img src="./Photos/Rectangle 38.png" class="card-img-top  card-image-2"
+                      alt="..."></div>
+                  <div class="">
+                    <h5 class="card-title my-card-title">Sneakers Basketball shoe</h5>
+                    <p class="card-text">This is a wider card with supporting text be Easy price no wories to get it..</p>
+                  </div>
+                  <div class="foot d-flex justify-content-between align-items-center">
+                    <h2 class="card-price orange-highlight">$234</h2>
+                    <button class="btn btn-primary bg-gradient py-3  my-button"><img class="cart-btn-icon"
+                        src="./Logo, Icon/shopping-cart 1.png" alt=""><span class="button-text"> BUY NOW</span></button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-auto my-card shadow-sm">
+                <div class="inside">
+                  <div class="card-image"><img src="./Photos/Rectangle 39.png" class="card-img-top  card-image-2"
+                      alt="..."></div>
+                  <div class="">
+                    <h5 class="card-title my-card-title">Sneakers Basketball shoe</h5>
+                    <p class="card-text">This is a wider card with supporting text be Easy price no wories to get it..</p>
+                  </div>
+                  <div class="foot d-flex justify-content-between align-items-center">
+                    <h2 class="card-price orange-highlight">$234</h2>
+                    <button class="btn btn-primary bg-gradient py-3  my-button"><img class="cart-btn-icon"
+                        src="./Logo, Icon/shopping-cart 1.png" alt=""><span class="button-text"> BUY NOW</span></button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- service-section -->
+
+
+  <section class="service container" id="service">
+
+    <div class="row p-2 flex-column-reverse flex-lg-row">
+      <div class="col-lg-5 col-sm-12">
+
+
+        <div class="row service-card shadow pl-2 pr-4 py-1 my-3">
+          <div class="col-lg-3 col-12 service-card-image my-3">
+            <img class="w-100 svc-image" src="./Logo, Icon/image 12.png" alt="">
+          </div>
+          <div class="col-lg-9 col-12">
+            <h2 class="service-card-title">Find the Perfect Fit
+            </h2>
+            <p>Everybody is different, which is why we offer styles for every body.</p>
+          </div>
+        </div>
+
+        <div class="row service-card shadow pl-2 pr-4 my-3 py-1">
+          <div class="col-lg-3 col-12 service-card-image my-3 ">
+            <img class="w-100 svc-image" src="./Logo, Icon/image 12.png" alt="">
+          </div>
+          <div class="col-lg-9 col-12">
+            <h2 class="service-card-title">Find the Perfect Fit
+            </h2>
+            <p>Everybody is different, which is why we offer styles for every body.</p>
+          </div>
+        </div>
+
+        <div class="row service-card shadow pl-2 pr-4 my-3 py-1">
+          <div class="col-lg-3 col-12 service-card-image my-3">
+            <img class="w-100 svc-image" src="./Logo, Icon/image 12.png" alt="">
+          </div>
+          <div class="col-lg-9 col-12">
+            <h2 class="service-card-title">Find the Perfect Fit
+            </h2>
+            <p>Everybody is different, which is why we offer styles for every body.</p>
+          </div>
+        </div>
+
+
+        
+
+        
+    </div>
+
+    <div class="col-lg-7 col-sm-12">
+      <img class="w-100 service-image " src="./Logo, Icon/XMLID 1.png" alt="">
+    </div>
+
+    </div>
     
-    
+  </section>
+
+  <!-- extra-section -->
+
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+
 </body>
+
 </html>
